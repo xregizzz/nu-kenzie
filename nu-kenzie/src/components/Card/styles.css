@@ -1,0 +1,159 @@
+.divCard {
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  animation: card-creation 0.8s ease-out;
+}
+
+@keyframes card-creation {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+.divCard:hover {
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.divCard h1 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+  margin-top: 0;
+}
+
+.divCard h2 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  margin: 0;
+}
+
+.divCardPosition {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 300px;
+}
+
+.divCardPosition2 {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+.greenClass {
+  border-left: 4px solid #03b898;
+}
+
+.greyClass {
+  border-left: 4px solid #e9ecef;
+}
+
+.buttonTrash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22px;
+  width: 22px;
+  border-radius: 2.461538553237915px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+}
+
+.buttonTrash:hover {
+  cursor: pointer;
+  background: #5b6166;
+}
+
+.buttonTrash svg {
+  color: #5b6166;
+}
+
+.buttonTrash:hover svg {
+  color: #f8f9fa;
+}
+
+@media (max-width: 320px) {
+  .divCard {
+    margin-left: 5px;
+    width: 98vw;
+    height: 13vh;
+  }
+
+  .listTransactions {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .divCard {
+    margin-left: 14px;
+    width: 90vw;
+    height: 13vh;
+  }
+
+  .listTransactions {
+    height: 300px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  .divCard {
+    margin-left: 18px;
+    width: 88vw;
+    height: 13vh;
+  }
+
+  .listTransactions {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+  .divCard {
+    width: 70vw;
+    height: 13vh;
+  }
+
+  .listTransactions {
+    height: 400px;
+    width: 100%;
+  }
+
+  .listTransactions {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .divCard {
+    width: 50vw;
+    height: 13vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .divCard {
+    width: 35vw;
+    height: 13vh;
+  }
+}

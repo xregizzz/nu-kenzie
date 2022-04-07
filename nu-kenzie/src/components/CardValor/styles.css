@@ -1,0 +1,57 @@
+.cardValor {
+  height: 96px;
+  width: 363px;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.valorTotalTxt {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.labelValorTotal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #5b6166;
+}
+
+.valorTotalNumero {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}
+
+.cardLabel {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.cardLabel h1 {
+  margin-bottom: 0;
+}
+
+.cardLabel h2 {
+  margin-top: 5px;
+}
+
+.cardValor span {
+  margin: 0px 20px 20px 0px;
+}

@@ -1,0 +1,132 @@
+.form {
+  width: 363px;
+  height: 351px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.inputDescricao {
+  width: 314px;
+  height: 52.8px;
+  padding: 0px, 16px, 0px, 16px;
+  gap: 10px;
+  background: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 0px 16px;
+}
+
+.inputDescricao::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #868e96;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.inputValor {
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.inputValor::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5b6166;
+}
+
+.inputSelect {
+  height: 48px;
+  width: 150px;
+  left: 0px;
+  top: 31px;
+  padding: 0px 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #5b6166;
+}
+
+.button {
+  height: 48px;
+  width: 314px;
+  left: 24.5px;
+  top: 265px;
+  border-radius: 8px;
+  padding: 13px, 20px, 13px, 20px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #e34981;
+  border: 2px solid #e34981;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+  gap: 8px;
+}
+
+.divInputs {
+  display: flex;
+  width: 305px;
+  justify-content: space-between;
+}
+
+.labelEx {
+  color: #868e96;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

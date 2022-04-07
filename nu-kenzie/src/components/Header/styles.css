@@ -1,0 +1,62 @@
+.header {
+  height: 88px;
+  width: 100%;
+  border-radius: 0px;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 32px -12px #00000040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo1 {
+  height: 19.5260009765625px;
+  width: 122.67755126953125px;
+  border-radius: 0px;
+  color: #fd377e;
+  font-family: "Nunito";
+  font-weight: 900;
+  width: 45px;
+}
+
+.logo2 {
+  height: 19.5260009765625px;
+  width: 122.67755126953125px;
+  border-radius: 0px;
+  color: #212529;
+  font-family: "Nunito";
+  font-weight: 900;
+  width: 115px;
+}
+
+.logoStyle {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 25px;
+  margin-left: 10%;
+}
+
+.buttonHeader {
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px;
+  margin-right: 15%;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #5b6166;
+}
+
+.buttonHeader:hover {
+  cursor: pointer;
+  background: #5b6166;
+  border: 1.4px solid #5b6166;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: #f8f9fa;
+}

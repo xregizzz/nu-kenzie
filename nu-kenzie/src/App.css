@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.listTransactions {
+  height: 500px;
+  width: 600px;
+  overflow-y: auto;
+}
+
+.filterButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 10px 15px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.filterButton:hover {
+  cursor: pointer;
+  background: #fd377e;
+  color: #e9ecef;
+}
+
+.filtros {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.filtros h3 {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+
+.divFilterButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  height: 20px;
+}
+
+@media (max-width: 320px) {
+  .filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 376px) {
+  .filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 426px) {
+  .filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
